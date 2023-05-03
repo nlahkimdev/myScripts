@@ -10,6 +10,6 @@ alias gp=git_push
 alias b=betty
 alias pc="pycodestyle --first"
 
-export PATH=/root/myScripts:$PATH
+export PATH=$PWD:$PATH
 
 alias upgrade="sudo apt update -y && sudo apt upgrade -y && sudo apt autoremove && clear && echo 'upgrade done'"
