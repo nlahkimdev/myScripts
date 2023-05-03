@@ -1,0 +1,3 @@
+#!/bin/bash
+ln -sf $PWD/bashconfig ~/.bash_aliases
+ln -sf $PWD/vimrc ~/.vimrc

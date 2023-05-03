@@ -1,0 +1,14 @@
+#!/bin/bash
+i=1;
+msg="";
+for word in "$@"
+do
+	msg+="${word} ";
+	i=$((i + 1));
+done;
+echo "$msg";
+git status
+git add .
+git status
+git commit -m "$msg"
+git push
